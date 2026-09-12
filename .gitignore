@@ -1,0 +1,22 @@
+# Environment files (NEVER COMMIT SECRETS)
+.env
+*.env
+
+# Virtual Environment
+.venv/
+env/
+venv/
+
+# SQLite Databases & Local Storage
+*.db
+*.sqlite3
+chatbot.db
+chatbot.db-wal
+chatbot.db-shm
+
+# Python Cache
+__pycache__/
+*.py[cod]
+
+# Logs
+*.log
